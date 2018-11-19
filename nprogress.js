@@ -90,8 +90,8 @@
 
         setTimeout(function() {
           css(progress, {
-            transition: 'all ' + speed + 'ms linear',
-            opacity: 0
+            transition: 'all ' + speed + 'ms linear'
+            // opacity: 0
           });
           setTimeout(function() {
             NProgress.remove();
